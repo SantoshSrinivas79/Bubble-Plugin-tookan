@@ -1,0 +1,193 @@
+{
+    "auth": "none",
+    "calls": {
+        "AAd": {
+            "doc_link": "https://tookanapi.docs.apiary.io/#reference/task/create-task/create-a-pickup-task",
+            "headers": {
+                "AAf": {
+                    "key": "Content-Type",
+                    "optional": false,
+                    "private": true,
+                    "value": "application/json",
+                    "visibility": "hidden"
+                }
+            },
+            "initialized": true,
+            "method": "post",
+            "name": "Create Task",
+            "params": {
+                "AAg": {
+                    "key": "order_id",
+                    "private": true,
+                    "value": "123456"
+                },
+                "AAh": {
+                    "key": "job_description",
+                    "private": true,
+                    "value": "test"
+                },
+                "AAi": {
+                    "key": "job_pickup_phone",
+                    "private": true,
+                    "value": "1234567890"
+                },
+                "AAj": {
+                    "key": "job_pickup_name",
+                    "optional": false,
+                    "private": true,
+                    "value": "sam"
+                },
+                "AAk": {
+                    "key": "job_pickup_email",
+                    "optional": false,
+                    "private": true,
+                    "value": "mssalama@msn.com"
+                },
+                "AAl": {
+                    "key": "job_pickup_address",
+                    "private": true,
+                    "value": "123 Mission St,"
+                },
+                "AAm": {
+                    "key": "job_pickup_latitude",
+                    "optional": true,
+                    "private": true,
+                    "value": ""
+                },
+                "AAn": {
+                    "key": "",
+                    "optional": true,
+                    "private": true,
+                    "value": ""
+                },
+                "AAo": {
+                    "key": "job_pickup_datetime",
+                    "private": true,
+                    "value": "2018-08-01 13:00:00"
+                },
+                "AAp": {
+                    "key": "has_pickup",
+                    "private": true,
+                    "value": "1",
+                    "visibility": "hidden"
+                },
+                "AAq": {
+                    "key": "has_delivery",
+                    "optional": false,
+                    "private": true,
+                    "value": "0",
+                    "visibility": "hidden"
+                },
+                "AAr": {
+                    "key": "layout_type",
+                    "optional": true,
+                    "private": true,
+                    "value": "0",
+                    "visibility": "hidden"
+                },
+                "AAs": {
+                    "key": "tracking_link",
+                    "optional": true,
+                    "private": true,
+                    "value": "1"
+                },
+                "AAt": {
+                    "key": "timezone",
+                    "optional": true,
+                    "private": true,
+                    "value": "+480"
+                },
+                "AAu": {
+                    "key": "pickup_custom_field_template",
+                    "optional": true,
+                    "private": true,
+                    "value": ""
+                },
+                "AAv": {
+                    "key": "pickup_meta_data",
+                    "optional": true,
+                    "private": true,
+                    "value": ""
+                },
+                "AAw": {
+                    "key": "team_id",
+                    "optional": true,
+                    "private": true,
+                    "value": ""
+                },
+                "AAx": {
+                    "key": "auto_assignment",
+                    "optional": true,
+                    "private": true,
+                    "value": "1"
+                },
+                "AAy": {
+                    "key": "fleet_id",
+                    "optional": true,
+                    "private": true,
+                    "value": ""
+                },
+                "AAz": {
+                    "key": "p_ref_images",
+                    "optional": true,
+                    "private": true,
+                    "value": ""
+                },
+                "ABA": {
+                    "key": "notify",
+                    "optional": true,
+                    "private": true,
+                    "value": ""
+                },
+                "ABB": {
+                    "key": "geofence",
+                    "optional": true,
+                    "private": true,
+                    "value": ""
+                },
+                "ABC": {
+                    "key": "tags",
+                    "optional": true,
+                    "private": true,
+                    "value": ""
+                }
+            },
+            "publish_as": "action",
+            "rank": 0,
+            "ret_value": "api.1527453111188x870584847193342000.plugin_api.AAd",
+            "types": "{\"plugin_api.AAd\":{\"caption\":\"Create Task\",\"fields\":{\"_p_message\":{\"ret_value\":\"text\",\"caption\":\"message\",\"path\":[\"message\"]},\"_p_status\":{\"ret_value\":\"number\",\"caption\":\"status\",\"path\":[\"status\"]},\"_p_data.job_id\":{\"ret_value\":\"number\",\"caption\":\"job_id\",\"path\":[\"data\",\"job_id\"]},\"_p_data.job_hash\":{\"ret_value\":\"text\",\"caption\":\"job_hash\",\"path\":[\"data\",\"job_hash\"]},\"_p_data.job_pickup_name\":{\"ret_value\":\"text\",\"caption\":\"job_pickup_name\",\"path\":[\"data\",\"job_pickup_name\"]},\"_p_data.job_pickup_address\":{\"ret_value\":\"text\",\"caption\":\"job_pickup_address\",\"path\":[\"data\",\"job_pickup_address\"]},\"_p_data.job_token\":{\"ret_value\":\"text\",\"caption\":\"job_token\",\"path\":[\"data\",\"job_token\"]},\"_p_data.tracking_link\":{\"ret_value\":\"text\",\"caption\":\"tracking_link\",\"path\":[\"data\",\"tracking_link\"]},\"_p_data.order_id\":{\"ret_value\":\"text\",\"caption\":\"order_id\",\"path\":[\"data\",\"order_id\"]},\"_p_data.pickupOrderId\":{\"ret_value\":\"text\",\"caption\":\"pickupOrderId\",\"path\":[\"data\",\"pickupOrderId\"]},\"_p_data.pickupAddressNotFound\":{\"ret_value\":\"boolean\",\"caption\":\"pickupAddressNotFound\",\"path\":[\"data\",\"pickupAddressNotFound\"]},\"_p_data.deliveryAddressNotFound\":{\"ret_value\":\"boolean\",\"caption\":\"deliveryAddressNotFound\",\"path\":[\"data\",\"deliveryAddressNotFound\"]}}}}",
+            "url": "https://api.tookanapp.com/v2/create_task"
+        },
+        "ABM": {
+            "doc_link": "https://tookanapi.docs.apiary.io/#reference/task/get-task-details/get-task-details",
+            "initialized": true,
+            "method": "post",
+            "name": "Get Task Details",
+            "params": {
+                "ABN": {
+                    "key": "job_id",
+                    "private": true,
+                    "value": "18653909"
+                },
+                "ABO": {
+                    "key": "user_id",
+                    "private": true,
+                    "value": "668232"
+                }
+            },
+            "publish_as": "data",
+            "rank": 1,
+            "ret_value": "api.1527453111188x870584847193342000.plugin_api.ABM",
+            "types": "{\"plugin_api.ABM\":{\"caption\":\"Get Task Detail\",\"fields\":{\"_p_message\":{\"ret_value\":\"text\",\"caption\":\"message\",\"path\":[\"message\"]},\"_p_status\":{\"ret_value\":\"_ignore\"},\"_p_data\":{\"ret_value\":\"list.api.1527453111188x870584847193342000.plugin_api.ABM.data\",\"caption\":\"data\",\"path\":[\"data\"]}}},\"plugin_api.ABM.data\":{\"caption\":\"Get Task Details data\",\"fields\":{\"_p_job_details_by_fleet\":{\"ret_value\":\"text\",\"caption\":\"job_details_by_fleet\",\"path\":[\"job_details_by_fleet\"]},\"_p_fleet_id\":{\"ret_value\":\"text\",\"caption\":\"fleet_id\",\"path\":[\"fleet_id\"]},\"_p_fleet_name\":{\"ret_value\":\"text\",\"caption\":\"fleet_name\",\"path\":[\"fleet_name\"]},\"_p_fleet_latitude\":{\"ret_value\":\"_ignore\"},\"_p_fleet_longitude\":{\"ret_value\":\"text\",\"caption\":\"fleet_longitude\",\"path\":[\"fleet_longitude\"]},\"_p_fleet_phone\":{\"ret_value\":\"text\",\"caption\":\"fleet_phone\",\"path\":[\"fleet_phone\"]},\"_p_fleet_image\":{\"ret_value\":\"text\",\"caption\":\"fleet_image\",\"path\":[\"fleet_image\"]},\"_p_fleet_vehicle_type\":{\"ret_value\":\"text\",\"caption\":\"fleet_vehicle_type\",\"path\":[\"fleet_vehicle_type\"]},\"_p_fleet_vehicle_color\":{\"ret_value\":\"text\",\"caption\":\"fleet_vehicle_color\",\"path\":[\"fleet_vehicle_color\"]},\"_p_fleet_vehicle_description\":{\"ret_value\":\"text\",\"caption\":\"fleet_vehicle_description\",\"path\":[\"fleet_vehicle_description\"]},\"_p_fleet_rating\":{\"ret_value\":\"text\",\"caption\":\"fleet_rating\",\"path\":[\"fleet_rating\"]},\"_p_fleet_rated_task\":{\"ret_value\":\"text\",\"caption\":\"fleet_rated_task\",\"path\":[\"fleet_rated_task\"]},\"_p_fleet_license\":{\"ret_value\":\"_ignore\"},\"_p_is_active\":{\"ret_value\":\"_ignore\"},\"_p_is_available\":{\"ret_value\":\"_ignore\"},\"_p_team_name\":{\"ret_value\":\"_ignore\"},\"_p_domain\":{\"ret_value\":\"_ignore\"},\"_p_time_format\":{\"ret_value\":\"_ignore\"},\"_p_date_format\":{\"ret_value\":\"_ignore\"},\"_p_username\":{\"ret_value\":\"text\",\"caption\":\"username\",\"path\":[\"username\"]},\"_p_user_id\":{\"ret_value\":\"number\",\"caption\":\"user_id\",\"path\":[\"user_id\"]},\"_p_is_merchant_job\":{\"ret_value\":\"number\",\"caption\":\"is_merchant_job\",\"path\":[\"is_merchant_job\"]},\"_p_region_id\":{\"ret_value\":\"_ignore\"},\"_p_region_name\":{\"ret_value\":\"_ignore\"},\"_p_merchant_name\":{\"ret_value\":\"text\",\"caption\":\"merchant_name\",\"path\":[\"merchant_name\"]},\"_p_merchant_phone\":{\"ret_value\":\"text\",\"caption\":\"merchant_phone\",\"path\":[\"merchant_phone\"]},\"_p_merchant_id\":{\"ret_value\":\"text\",\"caption\":\"merchant_id\",\"path\":[\"merchant_id\"]},\"_p_partner_fleet_name\":{\"ret_value\":\"text\",\"caption\":\"partner_fleet_name\",\"path\":[\"partner_fleet_name\"]},\"_p_partner_fleet_id\":{\"ret_value\":\"text\",\"caption\":\"partner_fleet_id\",\"path\":[\"partner_fleet_id\"]},\"_p_partner_fleet_phone\":{\"ret_value\":\"text\",\"caption\":\"partner_fleet_phone\",\"path\":[\"partner_fleet_phone\"]},\"_p_timezone\":{\"ret_value\":\"text\",\"caption\":\"timezone\",\"path\":[\"timezone\"]},\"_p_recurring_id\":{\"ret_value\":\"text\",\"caption\":\"recurring_id\",\"path\":[\"recurring_id\"]},\"_p_total_distance_travelled\":{\"ret_value\":\"text\",\"caption\":\"total_distance_travelled\",\"path\":[\"total_distance_travelled\"]},\"_p_distance_spent\":{\"ret_value\":\"text\",\"caption\":\"distance_spent\",\"path\":[\"distance_spent\"]},\"_p_customer_username\":{\"ret_value\":\"text\",\"caption\":\"customer_username\",\"path\":[\"customer_username\"]},\"_p_customer_id\":{\"ret_value\":\"number\",\"caption\":\"customer_id\",\"path\":[\"customer_id\"]},\"_p_barcode\":{\"ret_value\":\"text\",\"caption\":\"barcode\",\"path\":[\"barcode\"]},\"_p_form_id\":{\"ret_value\":\"_ignore\"},\"_p_customer_phone\":{\"ret_value\":\"text\",\"caption\":\"customer_phone\",\"path\":[\"customer_phone\"]},\"_p_customer_email\":{\"ret_value\":\"text\",\"caption\":\"customer_email\",\"path\":[\"customer_email\"]},\"_p_tags\":{\"ret_value\":\"text\",\"caption\":\"tags\",\"path\":[\"tags\"]},\"_p_geofence\":{\"ret_value\":\"number\",\"caption\":\"geofence\",\"path\":[\"geofence\"]},\"_p_driver_comment\":{\"ret_value\":\"text\",\"caption\":\"driver_comment\",\"path\":[\"driver_comment\"]},\"_p_job_vertical\":{\"ret_value\":\"number\",\"caption\":\"job_vertical\",\"path\":[\"job_vertical\"]},\"_p_job_hash\":{\"ret_value\":\"text\",\"caption\":\"job_hash\",\"path\":[\"job_hash\"]},\"_p_team_id\":{\"ret_value\":\"number\",\"caption\":\"team_id\",\"path\":[\"team_id\"]},\"_p_job_type\":{\"ret_value\":\"number\",\"caption\":\"job_type\",\"path\":[\"job_type\"]},\"_p_is_customer_rated\":{\"ret_value\":\"number\",\"caption\":\"is_customer_rated\",\"path\":[\"is_customer_rated\"]},\"_p_customer_comment\":{\"ret_value\":\"text\",\"caption\":\"customer_comment\",\"path\":[\"customer_comment\"]},\"_p_customer_rating\":{\"ret_value\":\"number\",\"caption\":\"customer_rating\",\"path\":[\"customer_rating\"]},\"_p_customer_rating_by_driver\":{\"ret_value\":\"text\",\"caption\":\"customer_rating_by_driver\",\"path\":[\"customer_rating_by_driver\"]},\"_p_has_pickup\":{\"ret_value\":\"number\",\"caption\":\"has_pickup\",\"path\":[\"has_pickup\"]},\"_p_has_delivery\":{\"ret_value\":\"number\",\"caption\":\"has_delivery\",\"path\":[\"has_delivery\"]},\"_p_job_pickup_email\":{\"ret_value\":\"text\",\"caption\":\"job_pickup_email\",\"path\":[\"job_pickup_email\"]},\"_p_job_pickup_name\":{\"ret_value\":\"text\",\"caption\":\"job_pickup_name\",\"path\":[\"job_pickup_name\"]},\"_p_job_pickup_phone\":{\"ret_value\":\"text\",\"caption\":\"job_pickup_phone\",\"path\":[\"job_pickup_phone\"]},\"_p_job_latitude\":{\"ret_value\":\"_ignore\"},\"_p_job_longitude\":{\"ret_value\":\"_ignore\"},\"_p_job_address\":{\"ret_value\":\"geographic_address\",\"caption\":\"job_address\",\"path\":[\"job_address\"]},\"_p_job_status\":{\"ret_value\":\"number\",\"caption\":\"job_status\",\"path\":[\"job_status\"]},\"_p_job_description\":{\"ret_value\":\"text\",\"caption\":\"job_description\",\"path\":[\"job_description\"]},\"_p_completed_by_admin\":{\"ret_value\":\"_ignore\"},\"_p_pickup_delivery_relationship\":{\"ret_value\":\"_ignore\"},\"_p_job_pickup_datetime\":{\"ret_value\":\"text\",\"caption\":\"job_pickup_datetime\",\"path\":[\"job_pickup_datetime\"]},\"_p_job_id\":{\"ret_value\":\"number\",\"caption\":\"job_id\",\"path\":[\"job_id\"]},\"_p_job_delivery_datetime\":{\"ret_value\":\"text\",\"caption\":\"job_delivery_datetime\",\"path\":[\"job_delivery_datetime\"]},\"_p_job_pickup_latitude\":{\"ret_value\":\"_ignore\"},\"_p_job_pickup_longitude\":{\"ret_value\":\"_ignore\"},\"_p_job_pickup_address\":{\"ret_value\":\"geographic_address\",\"caption\":\"job_pickup_address\",\"path\":[\"job_pickup_address\"]},\"_p_job_time\":{\"ret_value\":\"date\",\"caption\":\"job_time\",\"path\":[\"job_time\"]},\"_p_started_datetime\":{\"ret_value\":\"date\",\"caption\":\"started_datetime\",\"path\":[\"started_datetime\"]},\"_p_completed_datetime\":{\"ret_value\":\"text\",\"caption\":\"completed_datetime\",\"path\":[\"completed_datetime\"]},\"_p_open_tracking_link\":{\"ret_value\":\"_ignore\"},\"_p_arrived_datetime\":{\"ret_value\":\"text\",\"caption\":\"arrived_datetime\",\"path\":[\"arrived_datetime\"]},\"_p_acknowledged_datetime\":{\"ret_value\":\"text\",\"caption\":\"acknowledged_datetime\",\"path\":[\"acknowledged_datetime\"]},\"_p_partner_order_id\":{\"ret_value\":\"text\",\"caption\":\"partner_order_id\",\"path\":[\"partner_order_id\"]},\"_p_order_id\":{\"ret_value\":\"text\",\"caption\":\"order_id\",\"path\":[\"order_id\"]},\"_p_remarks\":{\"ret_value\":\"text\",\"caption\":\"remarks\",\"path\":[\"remarks\"]},\"_p_ride_type\":{\"ret_value\":\"number\",\"caption\":\"ride_type\",\"path\":[\"ride_type\"]},\"_p_promo_used\":{\"ret_value\":\"text\",\"caption\":\"promo_used\",\"path\":[\"promo_used\"]},\"_p_started_datetime_utc\":{\"ret_value\":\"date\",\"caption\":\"started_datetime_utc\",\"path\":[\"started_datetime_utc\"]},\"_p_started_datetime_local\":{\"ret_value\":\"date\",\"caption\":\"started_datetime_local\",\"path\":[\"started_datetime_local\"]},\"_p_completed_datetime_utc\":{\"ret_value\":\"text\",\"caption\":\"completed_datetime_utc\",\"path\":[\"completed_datetime_utc\"]},\"_p_completed_datetime_local\":{\"ret_value\":\"text\",\"caption\":\"completed_datetime_local\",\"path\":[\"completed_datetime_local\"]},\"_p_arrived_datetime_utc\":{\"ret_value\":\"text\",\"caption\":\"arrived_datetime_utc\",\"path\":[\"arrived_datetime_utc\"]},\"_p_arrived_datetime_local\":{\"ret_value\":\"text\",\"caption\":\"arrived_datetime_local\",\"path\":[\"arrived_datetime_local\"]},\"_p_acknowledged_datetime_utc\":{\"ret_value\":\"text\",\"caption\":\"acknowledged_datetime_utc\",\"path\":[\"acknowledged_datetime_utc\"]},\"_p_acknowledged_datetime_local\":{\"ret_value\":\"text\",\"caption\":\"acknowledged_datetime_local\",\"path\":[\"acknowledged_datetime_local\"]},\"_p_tracking_link\":{\"ret_value\":\"text\",\"caption\":\"tracking_link\",\"path\":[\"tracking_link\"]},\"_p_fields.app_optional_fields\":{\"ret_value\":\"_ignore\"},\"_p_fields.req_popup\":{\"ret_value\":\"_ignore\"},\"_p_fields.auto_assign.is_enabled\":{\"ret_value\":\"_ignore\"},\"_p_fields.auto_assign.expires_in\":{\"ret_value\":\"_ignore\"},\"_p_fields.auto_assign.broadcast_type\":{\"ret_value\":\"_ignore\"},\"_p_fields.auto_assign.offline_agents\":{\"ret_value\":\"_ignore\"},\"_p_fields.auto_assign.startingRadius\":{\"ret_value\":\"_ignore\"},\"_p_fields.auto_assign.incRadius\":{\"ret_value\":\"_ignore\"},\"_p_fields.auto_assign.radiusLimit\":{\"ret_value\":\"_ignore\"},\"_p_fields.auto_assign.batchTime\":{\"ret_value\":\"_ignore\"},\"_p_fields.auto_assign.acceptTime\":{\"ret_value\":\"_ignore\"},\"_p_fields.auto_assign.batchSize\":{\"ret_value\":\"_ignore\"},\"_p_fields.auto_assign.attemptLimit\":{\"ret_value\":\"_ignore\"},\"_p_fields.auto_assign.tasks\":{\"ret_value\":\"_ignore\"},\"_p_fields.auto_assign.radius\":{\"ret_value\":\"_ignore\"},\"_p_fields.auto_assign.retryLimit\":{\"ret_value\":\"_ignore\"},\"_p_fields.auto_assign.send_to_all_expires_in\":{\"ret_value\":\"_ignore\"},\"_p_fields.is_rating_comment_enabled\":{\"ret_value\":\"_ignore\"},\"_p_customer_avg_rating\":{\"ret_value\":\"number\",\"caption\":\"customer_avg_rating\",\"path\":[\"customer_avg_rating\"]},\"_p_task_history\":{\"ret_value\":\"_ignore\"},\"_p_task_html_string\":{\"ret_value\":\"_ignore\"},\"_p_fleet_history_image\":{\"ret_value\":\"_ignore\"}}}}",
+            "url": "https://api.tookanapp.com/v2/get_task_details"
+        }
+    },
+    "human": "TOOKAN",
+    "shared_params": {
+        "ABG": {
+            "key": "api_key",
+            "private": true,
+            "visibility": "secret"
+        }
+    }
+}
